@@ -1,0 +1,123 @@
+body{
+  background-image:linear-gradient( 200deg,
+      rgba(6, 27, 167, 0.67),
+      rgba(10, 198, 19, 0.38)), url(https://images.unsplash.com/photo-1533906966484-a9c978a3f090?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size:1em;
+  font-weight:500;
+  font-family: Montserrat, sans-serif;
+  line-height:1.5;
+  color: rgb(231, 231, 232);
+  margin:0;
+  width:100%;
+  margin: 3.125rem auto 0 auto;
+
+}
+
+h1{
+  font-weight:700;
+  margin-top:10px auto 0px auto;
+  text-align:center;
+  font-family: Inconsolata, sans-serif;
+  line-height:0.5;
+}
+
+#description{
+  text-align:center;
+  margin:15px auto 5px auto;
+  padding:0.3em;
+  margin-bottom:15px;
+  font-style:italic;
+}
+
+#survey-form{
+  text-align:center;
+  width:auto;
+  background-color:rgba(12, 12, 13, 0.71);
+  border-radius:5px;
+  padding:2em 3em;
+  margin: 0 30px 50px 30px;
+}
+
+label,p{
+  font-size:1.2em;
+}
+
+input,
+select,
+textarea {
+  margin:0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+label{
+  display:flex;
+  align-items:center;
+ 
+}
+
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.form-option{
+  margin:0 auto 1.5em auto;
+}
+
+.control{
+  display:block;
+  width:100%;
+  height:2.3em;
+  padding:0.1em 0.2em;
+  border: 1.2px solid #6586EF;
+  border-radius:3px;
+  color:#495057;
+}
+
+.input-radio,
+.input-checkbox{
+  display:inline-block;
+  margin-right:0.5em;
+  min-heaight:1.3em;
+  min-width:1.2em;
+}
+
+#message{
+  min-height:7em;
+  width:100%;
+  padding:0.6em;
+  resize:vertical;
+}
+
+#submit{
+  dsiplay:block;
+  width:100%;
+  cursor:pointer;
+  padding:0.6em;
+  border:2px solid #65EF7C;
+  border-radius:5px;
+  font-family: inherit;
+  font-size: inherit;
+  margin:0;
+  color:rgb(231, 231, 232);
+  background-color:#00E676;
+}
+
+.inner-p{
+  display:block;
+  text-align:left;
+}

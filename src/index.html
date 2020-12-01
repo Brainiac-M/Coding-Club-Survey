@@ -1,0 +1,78 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<body class="container">
+  <h1 id="title">Coding Club Survey Form</h1>
+  <p id="description">Welcome to Brainiac Coding Club</p>
+<form id="survey-form" action="#">
+  
+  <div class="form-option">
+  <label for="name" id="name-label">What's your name?</label><br/>
+  <input type="text" placeholder="Steve Jobs" id="name" required class="control"/>
+  </div>
+  
+   <div class="form-option">
+  <label for="name" id="email-label">Enter e-mail address:</label><br/>
+  <input type="email" placeholder="username@gmail.com" size="35" id="email" class="control" required/>
+  </div>
+  
+  <div class="form-option">
+  <label for="number" id="number-label">Age (Optional):</label>
+   <br/>
+  <input type="number" id="number" min="15" max="25"
+placeholder="Age" class="control"/>  
+  </div>
+  
+   <div class="form-option">
+  <p class="inner-p">What are you interested in learning?</p>
+  <select id="dropdown" class="control" required>
+    <option disabled selected value>Select interest</option>
+    <option value="web-dev">Web Design and Development</option>
+    <option value="UI/UX">UI/UX</option>
+    <option value="data-science">Data Science</option>
+    <option value="game-dev">Game Development</option>
+    <option value="graphics">Graphics Design</option>
+    <option value="preferNo">Prefer not to say</option>
+    <option value="other">Other</option>
+  </select>
+  </div>
+  
+  <div class="form-option">
+    <p class="inner-p">Level of competence:</p>
+    <label for="beginner">
+      <input type="radio" id="beginner" name="competence" value="beginner" class="input-radio" checked/>
+    Beginner</label>
+    <br/>
+    <label for="intermediate">
+    <input type="radio" id="intermediate" name="competence" value="Intermediate" class="input-radio" />
+    Intermediate</label>
+    <br/>
+    <label for="professional">
+    <input type="radio" id="professional" name="competence" value="professional" class="input-radio" />
+    Professional</label>
+    <br/>
+    <label for="expert">
+    <input type="radio" id="expert" name="competence" value="expert" class="input-radio" />
+    Expert</label>
+  </div>  
+   
+  <div class="form-option">
+    <p class="inner-p">What are you willing to commit to this programme?</p>
+    <label for="laptop">
+      <input type="checkbox" id="laptop" name="programme-needs" value="laptop" class="input-checkbox"/>Laptop
+    </label><br/>
+     <label for="internet">
+      <input type="checkbox" id="internet" name="programme-needs" value="internet-connection" class="input-checkbox"/>Internet connection
+    </label><br/>
+     <label for="time">
+      <input type="checkbox" id="time" name="programme-needs" value="time" class="input-checkbox"/>Time
+    </label>
+  </div> 
+  <div class="form-option">
+     <label for="message">What are your expectations from this Club?      </label><br/>
+     <textarea id="message" rows="5" cols="50" required placeholder="Feel free to express yourself"></textarea>
+  </div>
+  <div class="form-option">
+    <input type="submit" value="Suibmit survey" id="submit"/>
+  </div>
+  </form> 
+</body>
